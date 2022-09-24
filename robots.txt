@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://yanhuan0802.github.io/sitemap.xml

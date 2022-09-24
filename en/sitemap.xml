@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://yanhuan0802.github.io/posts/demo/</loc>
+    <lastmod>2022-09-24T12:29:47+08:00</lastmod>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/</loc>
+    <lastmod>2022-09-24T12:29:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://yanhuan0802.github.io/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://yanhuan0802.github.io/fa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yanhuan0802.github.io/"
+                />
+  </url><url>
+    <loc>https://yanhuan0802.github.io/posts/</loc>
+    <lastmod>2022-09-24T12:29:47+08:00</lastmod>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/categories/</loc>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/series/</loc>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/tags/</loc>
+  </url>
+</urlset>

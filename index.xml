@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hello World</title>
+    <link>https://yanhuan0802.github.io/</link>
+    <description>Recent content on Hello World</description>
+    <image>
+      <url>https://yanhuan0802.github.io/papermod-cover.png</url>
+      <link>https://yanhuan0802.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 24 Sep 2022 12:29:47 +0800</lastBuildDate><atom:link href="https://yanhuan0802.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Demo</title>
+      <link>https://yanhuan0802.github.io/posts/demo/</link>
+      <pubDate>Sat, 24 Sep 2022 12:29:47 +0800</pubDate>
+      
+      <guid>https://yanhuan0802.github.io/posts/demo/</guid>
+      <description> init </description>
+    </item>
+    
+  </channel>
+</rss>
