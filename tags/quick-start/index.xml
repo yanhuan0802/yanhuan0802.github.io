@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on YanHuan&#39;s World</title>
-    <link>https://yanhuan0802.github.io/posts/</link>
-    <description>Recent content in Posts on YanHuan&#39;s World</description>
+    <title>quick start on YanHuan&#39;s World</title>
+    <link>https://yanhuan0802.github.io/tags/quick-start/</link>
+    <description>Recent content in quick start on YanHuan&#39;s World</description>
     <image>
       <url>https://yanhuan0802.github.io/papermod-cover.png</url>
       <link>https://yanhuan0802.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 24 Sep 2022 12:29:47 +0800</lastBuildDate><atom:link href="https://yanhuan0802.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Sep 2022 12:29:47 +0800</lastBuildDate><atom:link href="https://yanhuan0802.github.io/tags/quick-start/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>基于 ubuntu 20.04 搭建 k8s 集群</title>
       <link>https://yanhuan0802.github.io/posts/%E5%9F%BA%E4%BA%8Eubuntu20.04%E6%90%AD%E5%BB%BAk8s%E9%9B%86%E7%BE%A4/</link>
