@@ -2,22 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yanhuan0802.github.io/series/kubernetes/</loc>
-    <lastmod>2022-09-24T12:29:47+08:00</lastmod>
+    <loc>https://yanhuan0802.github.io/series/packer/</loc>
+    <lastmod>2022-12-14T23:17:24+08:00</lastmod>
   </url><url>
     <loc>https://yanhuan0802.github.io/posts/</loc>
-    <lastmod>2022-09-24T12:29:47+08:00</lastmod>
+    <lastmod>2022-12-14T23:17:24+08:00</lastmod>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/tags/qemu/</loc>
+    <lastmod>2022-12-14T23:17:24+08:00</lastmod>
   </url><url>
     <loc>https://yanhuan0802.github.io/tags/quick-start/</loc>
-    <lastmod>2022-09-24T12:29:47+08:00</lastmod>
+    <lastmod>2022-12-14T23:17:24+08:00</lastmod>
   </url><url>
     <loc>https://yanhuan0802.github.io/series/</loc>
-    <lastmod>2022-09-24T12:29:47+08:00</lastmod>
+    <lastmod>2022-12-14T23:17:24+08:00</lastmod>
   </url><url>
     <loc>https://yanhuan0802.github.io/tags/</loc>
-    <lastmod>2022-09-24T12:29:47+08:00</lastmod>
+    <lastmod>2022-12-14T23:17:24+08:00</lastmod>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/tags/ubuntu/</loc>
+    <lastmod>2022-12-14T23:17:24+08:00</lastmod>
   </url><url>
     <loc>https://yanhuan0802.github.io/</loc>
+    <lastmod>2022-12-14T23:17:24+08:00</lastmod>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/posts/packer-qemu-ubuntu2004/</loc>
+    <lastmod>2022-12-14T23:17:24+08:00</lastmod>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/tags/kubernetes/</loc>
+    <lastmod>2022-09-24T12:29:47+08:00</lastmod>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/series/kubernetes/</loc>
     <lastmod>2022-09-24T12:29:47+08:00</lastmod>
   </url><url>
     <loc>https://yanhuan0802.github.io/posts/install-kubernetes-on-ubuntu-with-kubeadm/</loc>
