@@ -17,12 +17,12 @@ Packer Hcl 文件 packer { required_version = &amp;#34;&amp;gt;= 1.7.0, &amp;lt;
     </item>
     
     <item>
-      <title>基于 ubuntu 20.04 搭建 k8s 集群</title>
+      <title>基于 ubuntu 20.04 搭建 k8s 1.26.4 集群</title>
       <link>https://yanhuan0802.github.io/posts/install-kubernetes-on-ubuntu-with-kubeadm/</link>
       <pubDate>Sat, 24 Sep 2022 12:29:47 +0800</pubDate>
       
       <guid>https://yanhuan0802.github.io/posts/install-kubernetes-on-ubuntu-with-kubeadm/</guid>
-      <description>本文介绍基于 kubeadm + 内地网络 进行 k8s 集群部署。 本文介绍搭建单 master 节点 k8s 集群，适用于开发及测试，一般不适用生产环境。 环境准备 主机配置要求 k8s集群要求机器最低配置为 2CPU 2GRAM 关闭防火墙、交换分区、selinux # 防火墙 systemctl status firewalld # 如果没有firewalld.service，执行如下命令 sudo ufw status sudo ufw disable # 关闭swap swapoff -a cat /etc/fstab | grep swap # 删除或注释掉带有swap关键字的行 vi /etc/fstab # selinux # 检查 结果为Disabled即为关闭状态 apt update -y apt install -y selinux-utils getenforce # 如果selinux是启用状态，则需要永久关闭，关闭后重启机器方可生效 sed -i &amp;#39;s/SELINUX=enforcing/SELINUX=disabled/&amp;#39; /etc/selinux/config reboot 应用安装 安装容器运行时（CR） 允许 iptables 检查桥接流量 # 确保overlay br_netfilter内核模块加载 sudo modprobe overlay sudo modprobe br_netfilter cat &amp;lt;&amp;lt;EOF | sudo tee /etc/modules-load.</description>
+      <description>本文介绍基于 kubeadm + 内地网络 进行 k8s 集群部署。 本文介绍搭建单 master 节点 k8s 集群，适用于开发及测试，一般不适用生产环境。 环境准备 主机配置要求 k8s 集群要求机器最低配置为 2CPU 2GRAM 关闭防火墙、交换分区、selinux # 防火墙 systemctl status firewalld # 如果没有firewalld.service，执行如下命令 sudo ufw status sudo ufw disable # 关闭swap swapoff -a cat /etc/fstab | grep swap # 删除或注释掉带有swap关键字的行 vi /etc/fstab # selinux # 检查 结果为Disabled即为关闭状态 apt update -y apt install -y selinux-utils getenforce # 如果selinux是启用状态，则需要永久关闭，关闭后重启机器方可生效 sed -i &amp;#39;s/SELINUX=enforcing/SELINUX=disabled/&amp;#39; /etc/selinux/config reboot 应用安装 安装容器运行时（CR） 自 1.24 版起，Dockershim 已从 Kubernetes 项目中移除，本文只介绍 containerd 的安装。 允许 iptables 检查桥接流量 # 确保overlay br_netfilter内核模块加载 cat &amp;lt;&amp;lt;EOF | sudo tee /etc/modules-load.</description>
     </item>
     
   </channel>
