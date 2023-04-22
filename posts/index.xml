@@ -5,7 +5,28 @@
     <link>https://yanhuan0802.github.io/posts/</link>
     <description>Recent content in Posts on YanHuan&#39;s World</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Dec 2022 23:17:24 +0800</lastBuildDate><atom:link href="https://yanhuan0802.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Apr 2023 20:33:06 +0800</lastBuildDate><atom:link href="https://yanhuan0802.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>深入理解 Go 数组和切片底层实现</title>
+      <link>https://yanhuan0802.github.io/posts/explore-go-array-slice/</link>
+      <pubDate>Sat, 22 Apr 2023 20:33:06 +0800</pubDate>
+      
+      <guid>https://yanhuan0802.github.io/posts/explore-go-array-slice/</guid>
+      <description>数组array和切片slice是 Go 语言的两种基本数据结构，也是我们需要深入了解的基础概念。在本篇文章中，我们将深入探讨 Go 语言的数组和切片实现原理，帮助大家更好地理解它们的使用方法和优劣势。
+数组 数据结构 数组是计算机科学中的一种数据结构，它具有以下几个特点：
+元素类型相同，存储宽度一致 存储在一段连续的内存空间 空间大小固定，不能修改（会出现数据溢出问题） 可以通过元素索引计算出元素的存储地址 几乎所有的计算机语言，对于数组的实现都是相似的，都拥有上述特性，Go语言也一样。
+不同于 C 语言或其他语言，Go 语言数组是值类型，定义的时候就需要指定大小，数组大小是它类型的一部分，不同大小的数组相当于不同的类型，赋值和函数传参都会复制整个数组，相当于是原数组的拷贝。
+初始化 数组有两种初始化的方式，一种是显示声明数组的长度，一种是使用[...]T声明数组。
+arr1 := [3]int{0, 1, 2} arr2 := [...]int{0, 1, 2} 第二种初始化的方式属于 Go 语言提供的语法糖，在编译期间就会推导出数组的长度，最终转换成第一种，所以上述两种声明方式在运行期间得到的结果是相同的。
+在编译期间，Go 会根据数组的元素数量，做出如下的优化：
+当元素小于等于4个时，会直接将数组的元素在栈上面初始化； 当元素大于4个时，会将数组在静态区初始化然后复制到栈上面。 缺点 数组大小是固定的，但是很多场景中我们无法直接给出数组的确定长度。
+数组是值类型，传递一个很大的数组给函数会消耗很多内存。
+切片 由于数组的固定长度和值传递不够灵活，所以 Go 语言中，拥有不定长度的引用类型切片（slice）更加常用。
+切片是对数组一个连续片段的引用，这些片段可以是整个数组，或者是由其实和终止索引表示的一些项的子集。
+数据结构 切片的数据结构在源码包中定义
+// go 1.20 src/runtime/slice.go type slice struct { array unsafe.Pointer // 元素指针 len int // 长度 cap int // 容量 } 其中，array表示指向相关数组的指针，len表示切片长度，cap表示当前切片的容量，即底层数组的大小。其中底层数组是可以被多个 slice 同时指向的，所以对一个 slice 中的元素进行操作，可能也会影响到其他slice.</description>
+    </item>
+    
     <item>
       <title>使用 Packer QEMU 插件构建自定义 Ubuntu 20.04 操作系统镜像</title>
       <link>https://yanhuan0802.github.io/posts/packer-qemu-ubuntu2004/</link>
