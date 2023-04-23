@@ -12,8 +12,7 @@
       <pubDate>Wed, 14 Dec 2022 23:17:24 +0800</pubDate>
       
       <guid>https://yanhuan0802.github.io/posts/packer-qemu-ubuntu2004/</guid>
-      <description>环境准备 准备一台 linux 物理机 安装对应的 packer 软件 安装对应的 qemu kvm 软件 镜像构建 分别将以下 hcl 文件以及 user-data 文件放置在提前准备好的目录当中
-Packer Hcl 文件 packer { required_version = &amp;#34;&amp;gt;= 1.7.0, &amp;lt; 2.0.0&amp;#34; required_plugins { qemu = { source = &amp;#34;github.com/hashicorp/qemu&amp;#34; version = &amp;#34;&amp;gt;= 1.0.0, &amp;lt; 2.0.0&amp;#34; } } } variable &amp;#34;vm_name&amp;#34; { type = string default = &amp;#34;ubuntu-2004.qcow2&amp;#34; } source &amp;#34;qemu&amp;#34; &amp;#34;test&amp;#34; { iso_url = &amp;#34;https://releases.ubuntu.com/20.04/ubuntu-20.04.5-live-server-amd64.iso&amp;#34; iso_checksum = &amp;#34;5035be37a7e9abbdc09f0d257f3e33416c1a0fb322ba860d42d74aa75c3468d4&amp;#34; vm_name = var.vm_name output_directory = &amp;#34;output&amp;#34; http_directory = &amp;#34;http&amp;#34; boot_wait = &amp;#34;2s&amp;#34; boot_command = [ &amp;#34;&amp;lt;esc&amp;gt;&amp;lt;esc&amp;gt;&amp;lt;esc&amp;gt;&amp;#34;, &amp;#34;&amp;lt;enter&amp;gt;&amp;lt;wait&amp;gt;&amp;#34;, &amp;#34;/casper/vmlinuz &amp;#34;, &amp;#34;initrd=/casper/initrd &amp;#34;, &amp;#34;autoinstall ds=nocloud-net;s=http://{{.</description>
+      <description>环境准备 准备一台 linux 物理机 安装对应的 packer 软件 安装对应的 qemu kvm 软件 镜像构建 分别将以下 hcl 文件以及 user-data 文件放置在提前准备好的目录当中 Packer Hcl 文件 packer { required_version = &amp;#34;&amp;gt;= 1.7.0, &amp;lt;</description>
     </item>
     
     <item>
@@ -22,7 +21,7 @@ Packer Hcl 文件 packer { required_version = &amp;#34;&amp;gt;= 1.7.0, &amp;lt;
       <pubDate>Sat, 24 Sep 2022 12:29:47 +0800</pubDate>
       
       <guid>https://yanhuan0802.github.io/posts/install-kubernetes-on-ubuntu-with-kubeadm/</guid>
-      <description>本文介绍基于 kubeadm + 内地网络 进行 k8s 集群部署。 本文介绍搭建单 master 节点 k8s 集群，适用于开发及测试，一般不适用生产环境。 环境准备 主机配置要求 k8s 集群要求机器最低配置为 2CPU 2GRAM 关闭防火墙、交换分区、selinux # 防火墙 systemctl status firewalld # 如果没有firewalld.service，执行如下命令 sudo ufw status sudo ufw disable # 关闭swap swapoff -a cat /etc/fstab | grep swap # 删除或注释掉带有swap关键字的行 vi /etc/fstab # selinux # 检查 结果为Disabled即为关闭状态 apt update -y apt install -y selinux-utils getenforce # 如果selinux是启用状态，则需要永久关闭，关闭后重启机器方可生效 sed -i &amp;#39;s/SELINUX=enforcing/SELINUX=disabled/&amp;#39; /etc/selinux/config reboot 应用安装 安装容器运行时（CR） 自 1.24 版起，Dockershim 已从 Kubernetes 项目中移除，本文只介绍 containerd 的安装。 允许 iptables 检查桥接流量 # 确保overlay br_netfilter内核模块加载 cat &amp;lt;&amp;lt;EOF | sudo tee /etc/modules-load.</description>
+      <description>本文介绍基于 kubeadm + 内地网络 进行 k8s 集群部署。 本文介绍搭建单 master 节点 k8s 集群，适用于开发及测试，一般不适用生产环境。 环境准备 主机配置要求 k8s 集群要求机器</description>
     </item>
     
   </channel>

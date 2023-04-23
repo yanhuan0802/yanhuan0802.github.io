@@ -12,8 +12,7 @@
       <pubDate>Wed, 14 Dec 2022 23:17:24 +0800</pubDate>
       
       <guid>https://yanhuan0802.github.io/posts/packer-qemu-ubuntu2004/</guid>
-      <description>环境准备 准备一台 linux 物理机 安装对应的 packer 软件 安装对应的 qemu kvm 软件 镜像构建 分别将以下 hcl 文件以及 user-data 文件放置在提前准备好的目录当中
-Packer Hcl 文件 packer { required_version = &amp;#34;&amp;gt;= 1.7.0, &amp;lt; 2.0.0&amp;#34; required_plugins { qemu = { source = &amp;#34;github.com/hashicorp/qemu&amp;#34; version = &amp;#34;&amp;gt;= 1.0.0, &amp;lt; 2.0.0&amp;#34; } } } variable &amp;#34;vm_name&amp;#34; { type = string default = &amp;#34;ubuntu-2004.qcow2&amp;#34; } source &amp;#34;qemu&amp;#34; &amp;#34;test&amp;#34; { iso_url = &amp;#34;https://releases.ubuntu.com/20.04/ubuntu-20.04.5-live-server-amd64.iso&amp;#34; iso_checksum = &amp;#34;5035be37a7e9abbdc09f0d257f3e33416c1a0fb322ba860d42d74aa75c3468d4&amp;#34; vm_name = var.vm_name output_directory = &amp;#34;output&amp;#34; http_directory = &amp;#34;http&amp;#34; boot_wait = &amp;#34;2s&amp;#34; boot_command = [ &amp;#34;&amp;lt;esc&amp;gt;&amp;lt;esc&amp;gt;&amp;lt;esc&amp;gt;&amp;#34;, &amp;#34;&amp;lt;enter&amp;gt;&amp;lt;wait&amp;gt;&amp;#34;, &amp;#34;/casper/vmlinuz &amp;#34;, &amp;#34;initrd=/casper/initrd &amp;#34;, &amp;#34;autoinstall ds=nocloud-net;s=http://{{.</description>
+      <description>环境准备 准备一台 linux 物理机 安装对应的 packer 软件 安装对应的 qemu kvm 软件 镜像构建 分别将以下 hcl 文件以及 user-data 文件放置在提前准备好的目录当中 Packer Hcl 文件 packer { required_version = &amp;#34;&amp;gt;= 1.7.0, &amp;lt;</description>
     </item>
     
   </channel>
