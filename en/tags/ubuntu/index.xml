@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ubuntu on YanHuan&#39;s World</title>
+    <link>https://yanhuan0802.github.io/en/tags/ubuntu/</link>
+    <description>Recent content in ubuntu on YanHuan&#39;s World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Dec 2022 23:17:24 +0800</lastBuildDate><atom:link href="https://yanhuan0802.github.io/en/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 Packer QEMU 插件构建自定义 Ubuntu 20.04 OS 镜像</title>
+      <link>https://yanhuan0802.github.io/en/posts/packer-qemu-ubuntu2004/</link>
+      <pubDate>Wed, 14 Dec 2022 23:17:24 +0800</pubDate>
+      
+      <guid>https://yanhuan0802.github.io/en/posts/packer-qemu-ubuntu2004/</guid>
+      <description>环境准备 准备一台 linux 物理机 安装对应的 packer 软件 安装对应的 qemu kvm 软件 镜像构建 分别将以下 hcl 文件以及 user-data 文件放置在提前准备好的目录当中 Packer Hcl 文件 packer { required_version = &amp;#34;&amp;gt;= 1.7.0, &amp;lt;</description>
+    </item>
+    
+    <item>
+      <title>基于 ubuntu 20.04 搭建 k8s 1.26.4 集群</title>
+      <link>https://yanhuan0802.github.io/en/posts/install-kubernetes-on-ubuntu-with-kubeadm/</link>
+      <pubDate>Sat, 24 Sep 2022 12:29:47 +0800</pubDate>
+      
+      <guid>https://yanhuan0802.github.io/en/posts/install-kubernetes-on-ubuntu-with-kubeadm/</guid>
+      <description>本文介绍基于 kubeadm + 内地网络 进行 k8s 集群部署。 本文介绍搭建单 master 节点 k8s 集群，适用于开发及测试，一般不适用生产环境。 环境准备 主机配置要求 k8s 集群要求机器</description>
+    </item>
+    
+  </channel>
+</rss>
