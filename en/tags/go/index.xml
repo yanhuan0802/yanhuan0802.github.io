@@ -6,7 +6,16 @@
     <description>Recent content in Go on YanHuan&#39;s World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 May 2023 21:53:50 +0800</lastBuildDate><atom:link href="https://yanhuan0802.github.io/en/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jun 2023 21:55:43 +0800</lastBuildDate><atom:link href="https://yanhuan0802.github.io/en/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Context 那些事儿</title>
+      <link>https://yanhuan0802.github.io/en/posts/go-context/</link>
+      <pubDate>Fri, 30 Jun 2023 21:55:43 +0800</pubDate>
+      
+      <guid>https://yanhuan0802.github.io/en/posts/go-context/</guid>
+      <description>context 是 Go 语言应用开发常用的并发控制技术，可以用来控制多级的 goroutine，实现 goroutine 之间退出通知、元数据传递等功能。在本篇文章中，我们将从 context 的</description>
+    </item>
+    
     <item>
       <title>深入理解 Go Channel 底层实现</title>
       <link>https://yanhuan0802.github.io/en/posts/explore-go-channel/</link>
