@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yanhuan0802.github.io/en/tags/arm/</loc>
+    <lastmod>2024-12-08T17:37:42+08:00</lastmod>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/en/tags/docker/</loc>
+    <lastmod>2024-12-08T17:37:42+08:00</lastmod>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/en/posts/</loc>
+    <lastmod>2024-12-08T17:37:42+08:00</lastmod>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/en/series/s1/</loc>
+    <lastmod>2024-12-08T17:37:42+08:00</lastmod>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/en/series/</loc>
+    <lastmod>2024-12-08T17:37:42+08:00</lastmod>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/en/tags/</loc>
+    <lastmod>2024-12-08T17:37:42+08:00</lastmod>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/en/tags/x86/</loc>
+    <lastmod>2024-12-08T17:37:42+08:00</lastmod>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/en/</loc>
+    <lastmod>2024-12-08T17:37:42+08:00</lastmod>
+  </url><url>
+    <loc>https://yanhuan0802.github.io/en/posts/multi-arch-images/</loc>
+    <lastmod>2024-12-08T17:37:42+08:00</lastmod>
+  </url><url>
     <loc>https://yanhuan0802.github.io/en/tags/go/</loc>
     <lastmod>2023-11-06T23:21:14+08:00</lastmod>
   </url><url>
@@ -9,18 +36,6 @@
     <lastmod>2023-11-06T23:21:14+08:00</lastmod>
   </url><url>
     <loc>https://yanhuan0802.github.io/en/posts/go-context/</loc>
-    <lastmod>2023-11-06T23:21:14+08:00</lastmod>
-  </url><url>
-    <loc>https://yanhuan0802.github.io/en/posts/</loc>
-    <lastmod>2023-11-06T23:21:14+08:00</lastmod>
-  </url><url>
-    <loc>https://yanhuan0802.github.io/en/series/</loc>
-    <lastmod>2023-11-06T23:21:14+08:00</lastmod>
-  </url><url>
-    <loc>https://yanhuan0802.github.io/en/tags/</loc>
-    <lastmod>2023-11-06T23:21:14+08:00</lastmod>
-  </url><url>
-    <loc>https://yanhuan0802.github.io/en/</loc>
     <lastmod>2023-11-06T23:21:14+08:00</lastmod>
   </url><url>
     <loc>https://yanhuan0802.github.io/en/tags/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</loc>
