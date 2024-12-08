@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on YanHuan&#39;s World</title>
+    <link>https://yanhuan0802.github.io/tags/</link>
+    <description>Recent content in Tags on YanHuan&#39;s World</description>
+    <generator>Hugo -- 0.139.3</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Nov 2023 23:21:14 +0800</lastBuildDate>
+    <atom:link href="https://yanhuan0802.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ARM</title>
+      <link>https://yanhuan0802.github.io/tags/arm/</link>
+      <pubDate>Sun, 17 Sep 2023 10:43:24 +0800</pubDate>
+      <guid>https://yanhuan0802.github.io/tags/arm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://yanhuan0802.github.io/tags/docker/</link>
+      <pubDate>Sun, 17 Sep 2023 10:43:24 +0800</pubDate>
+      <guid>https://yanhuan0802.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>X86</title>
+      <link>https://yanhuan0802.github.io/tags/x86/</link>
+      <pubDate>Sun, 17 Sep 2023 10:43:24 +0800</pubDate>
+      <guid>https://yanhuan0802.github.io/tags/x86/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://yanhuan0802.github.io/tags/go/</link>
+      <pubDate>Fri, 30 Jun 2023 21:55:43 +0800</pubDate>
+      <guid>https://yanhuan0802.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>并发编程</title>
+      <link>https://yanhuan0802.github.io/tags/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</link>
+      <pubDate>Fri, 30 Jun 2023 21:55:43 +0800</pubDate>
+      <guid>https://yanhuan0802.github.io/tags/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qemu</title>
+      <link>https://yanhuan0802.github.io/tags/qemu/</link>
+      <pubDate>Wed, 14 Dec 2022 23:17:24 +0800</pubDate>
+      <guid>https://yanhuan0802.github.io/tags/qemu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quick Start</title>
+      <link>https://yanhuan0802.github.io/tags/quick-start/</link>
+      <pubDate>Wed, 14 Dec 2022 23:17:24 +0800</pubDate>
+      <guid>https://yanhuan0802.github.io/tags/quick-start/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu</title>
+      <link>https://yanhuan0802.github.io/tags/ubuntu/</link>
+      <pubDate>Wed, 14 Dec 2022 23:17:24 +0800</pubDate>
+      <guid>https://yanhuan0802.github.io/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://yanhuan0802.github.io/tags/kubernetes/</link>
+      <pubDate>Sat, 24 Sep 2022 12:29:47 +0800</pubDate>
+      <guid>https://yanhuan0802.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
